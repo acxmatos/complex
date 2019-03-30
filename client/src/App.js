@@ -17,8 +17,8 @@ class App extends Component {
             <Link to="/otherpage">Other Page</Link>
           </header>
           <div>
-            <Route exact path="/" component={ Fib } />
-            <Route path="/otherpage" component={ OtherPage } />
+            <Route exact path="/" component={Fib} />
+            <Route path="/otherpage" component={OtherPage} />
           </div>
         </div>
       </Router>
